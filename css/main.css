@@ -168,6 +168,18 @@ header .social-info li a:hover {
   background: #fff;
   border: 1px solid #00afec;
 }
+#banner .block .download-btn li .btn-resume {
+  background: #00afec;
+  border: 1px solid transparent;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+#banner .block .download-btn li .btn-resume:hover {
+  color: #00afec;
+  background: #fff;
+  border: 1px solid #00afec;
+}
 #service {
   padding: 30px 0;
 }
