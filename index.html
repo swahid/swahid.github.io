@@ -1,360 +1,266 @@
 <!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Saurav Wahid Projects</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saurav Wahid — Vibe App Rescue & Reliable Tools</title>
+  <meta name="description" content="I rescue and harden AI-generated apps. Clean messy Lovable, Bolt, Cursor & Replit projects. Fast websites & tools for small businesses.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-bg {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px -10px rgba(59, 130, 246, 0.25);
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, #3b82f6, #2563eb);
+    }
+    .btn-primary:hover {
+      background: linear-gradient(90deg, #2563eb, #1d4ed8);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-        <!-- Fonts -->
+  <!-- Header -->
+  <header class="gradient-bg border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div>
+        <h1 class="text-xl font-bold tracking-tight">Saurav Wahid</h1>
+        <p class="text-slate-400 text-sm">Software Engineer • 10+ years experience</p>
+      </div>
+      <div class="flex gap-3">
+        <a href="https://wa.me/8801713792428" target="_blank" class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+          <i class="fab fa-whatsapp text-lg"></i> WhatsApp
+        </a>
+        <a href="mailto:wahid.saurav@gmail.com" class="inline-flex items-center gap-2 bg-slate-700 hover:bg-slate-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </div>
+    </div>
+  </header>
 
+  <!-- Hero -->
+  <section class="gradient-bg py-16 sm:py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="inline-block bg-blue-500/10 border border-blue-500/30 text-blue-300 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
+        Specializing in AI-generated (Vibe-coded) apps
+      </div>
+      <h2 class="text-3xl sm:text-5xl font-extrabold leading-tight mb-6">
+        I rescue messy AI apps<br class="hidden sm:block">
+        <span class="text-blue-400">and make them production-ready</span>
+      </h2>
+      <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
+        Most vibe-coded projects (Lovable, Bolt, Cursor, Replit) break when you try to scale, add payments, or go live. I clean the code, fix security holes, harden the architecture, and keep them running.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#packages" class="btn-primary text-white font-semibold px-8 py-3.5 rounded-xl text-lg shadow-lg shadow-blue-500/20 transition">
+          View Packages
+        </a>
+        <a href="#book" class="bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white font-semibold px-8 py-3.5 rounded-xl text-lg transition">
+          Book Free 15-min Call
+        </a>
+      </div>
+    </div>
+  </section>
 
-
-
-        <!-- CSS -->
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        
-
-        <!-- Js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script>
-         new WOW(
-            ).init();
-        </script>
-
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','js/analytics.js','ga');
-
-          ga('create', 'UA-57708809-1', 'auto');
-          ga('send', 'pageview');
-
-        </script>
-
-    </head>
-    <body>
-
-
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <a href="https://swahid.github.io" class="logo">
-                        <img src="images/logo_github.png" width="80px" height="32px" alt="">
-                    </a>
-                </div>
-                <div class="col-md-6 col-xs-6 col-sm-6">
-                    <div class="menu">
-                        <nav class="navbar navbar-default" role="navigation">
-                            <div class="container-fluid">
-                                <!-- Brand and toggle get grouped for better mobile display -->
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-
-                                <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav">
-                                        <li><a href="#banner">Home</a></li>
-                                        <li><a href="#service">Projects</a></li>
-                                        <li><a href="resume/resume.html" target="_blank">Resume</a></li>
-                                        <li><a href="#utility">Utility</a></li>
-                                        <li><a href="#subscribe">Contact</a></li>
-                                    </ul>
-                                  
-                                </div><!-- /.navbar-collapse -->
-                            </div><!-- /.container-fluid -->
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12 col-sm-3">
-                    <ul class="social-info">
-                        <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-                        <li><a href="https://github.com/swahid" target="_blank"><i class="fa fa-github"></i></a></li>
-                        <!-- <li><a href=""><i class="fa fa-upwork"></i></a></li> -->
-                        <li><a href="http://twitter.com/sauravwahid" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://linkedin.com/in/sauravwahid" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-                    </ul>
-                </div>
-            </div>
+  <!-- What I Do -->
+  <section class="py-16 border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-12">How I help</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+          <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mb-4">
+            <i class="fas fa-screwdriver-wrench text-blue-400 text-xl"></i>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Rescue & Harden</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Fix broken auth, payments, deployments, security issues and messy architecture in Lovable / Bolt / Cursor / Replit projects.</p>
         </div>
-    </header>
-
-    
-
-
-    <section id="banner" class="wow fadeInUp">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="block">
-                        <img class="app-img img-responsive" src="images/app.png" alt="">
-                    </div>
-                    
-                </div>
-                <div class="col-md-6 col-md-offset-1 col-sm-6">
-                    <div class="block">
-                        <h2>
-                            Welcome Open Projects
-                        </h2>
-                        <p>
-                            Saurav Personal project & resume Page.
-                        </p>
-
-                        <ul class="download-btn">
-                            <!-- <li>
-                                <a href="#" class="btn btn-default btn-apple"> <i class="fa fa-apple"></i>App store</a>
-                            </li> -->
-							<li>
-                                <a href="https://github.com/swahid" class="btn btn-default btn-apple" target="_blank"> <i class="fa fa-github"></i> View on Github</a>
-                            </li>
-                            <li>
-                                <a href="resume/resume.html" class="btn btn-default btn-resume" target="_blank"></i>View Resume</a>
-                            </li>
-                            <!-- <li>
-                                <a href="#" class="btn btn-default btn-windows"><i class="fa fa-windows"></i>Windows Store</a>
-                            </li> -->
-                        </ul>
-                        
-
-                    </div>
-                </div>
-            </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+          <div class="w-12 h-12 bg-green-500/10 rounded-xl flex items-center justify-center mb-4">
+            <i class="fas fa-shield-halved text-green-400 text-xl"></i>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Maintenance Retainers</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Monthly care so your app stays updated, secure and running while you focus on customers.</p>
         </div>
-    </section>
-
-
-    <section id="service">
-        <div class="container">
-            <div class="service-wrapper">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="block wow fadeInRight" data-wow-delay="1s">
-                            <div class="icon">
-                               <i class="fa fa-desktop"></i> 
-                            </div>
-                            
-                            <h3>Fully Customizable</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="block wow fadeInRight" data-wow-delay="1.3s">
-                            <div class="icon">
-                                <i class="fa  fa-paper-plane"></i>
-                            </div>
-                            <h3>Gorgeous design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="block wow fadeInRight" data-wow-delay="1.6s">
-                            <div class="icon">
-                                <i class="fa  fa-file-text"></i>
-                            </div>
-                            <h3>Well documented.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
-                        </div>
-                    </div>
-                     <div class="col-md-3 col-sm-6">
-                        <div class="block wow fadeInRight" data-wow-delay="1.9s">
-                            <div class="icon">
-                                <i class="fa  fa-laptop"></i>
-                            </div>
-                            <h3>Responsive Design.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, amet.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+          <div class="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center mb-4">
+            <i class="fas fa-store text-purple-400 text-xl"></i>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Fast Business Tools</h4>
+          <p class="text-slate-400 text-sm leading-relaxed">Modern websites, booking systems, lead forms and simple internal tools for small businesses — delivered in days.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
+  <!-- Packages -->
+  <section id="packages" class="py-16 bg-slate-900/50 border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-2xl sm:text-3xl font-bold text-center mb-3">Clear Packages</h3>
+      <p class="text-slate-400 text-center mb-12 max-w-xl mx-auto">Transparent pricing. No surprises. Most projects start with a free 15-minute call.</p>
 
-   
-    
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-
-
-
-
-    <section id="feature">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
-                    <h2 class="title">Our Focused on Feature</h2>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-paint-brush"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Reliable and Secure Platform</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisici ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-qrcode"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Everything is perfectly orgainized</h4>
-                                <p>Aipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-item">
-
-                        <div class="media">
-                            <div class="pull-left icon" href="#">
-                                <i class="fa fa-recycle"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Rapid customer support</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
-                    <div class="block">
-                        <img class="img-responsive" src="images/featured-app.png" alt="">
-                    </div>
-                </div>
-            </div>
+        <!-- Audit -->
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 card-hover transition duration-300">
+          <div class="text-blue-400 text-sm font-semibold mb-2">START HERE</div>
+          <h4 class="text-xl font-bold mb-2">Quick Audit</h4>
+          <div class="text-3xl font-extrabold mb-1">$149 – $299</div>
+          <p class="text-slate-400 text-sm mb-5">1–2 hours</p>
+          <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Full code & architecture review</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Security & performance checklist</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Written report + priority fixes list</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Clear next-step recommendations</li>
+          </ul>
+          <a href="#book" class="block text-center bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-xl py-2.5 font-medium transition">Book Audit Call</a>
         </div>
-    </section>
 
-
-    <section id="utility">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <img class="img-responsive" src="images/mockup.png" alt="">
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-delay=".8s">
-                    <div class="block">
-                        <h2>Amazing Compatibility.</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisqua
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <!-- Rescue -->
+        <div class="bg-slate-900 border-2 border-blue-500/50 rounded-2xl p-6 card-hover transition duration-300 relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</div>
+          <div class="text-blue-400 text-sm font-semibold mb-2">RESCUE</div>
+          <h4 class="text-xl font-bold mb-2">Rescue Package</h4>
+          <div class="text-3xl font-extrabold mb-1">$800 – $2,500</div>
+          <p class="text-slate-400 text-sm mb-5">Usually 3–10 days</p>
+          <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Fix critical bugs & broken features</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Secure auth, payments & APIs</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Clean messy AI-generated code</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Basic performance improvements</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> 14-day post-delivery support</li>
+          </ul>
+          <a href="#book" class="block text-center btn-primary text-white rounded-xl py-2.5 font-medium transition">Start Rescue</a>
         </div>
-    </section>
 
-
-    <section id="utility-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay=".8s">
-                    <div class="block">
-                        <h2>Remarkable Features</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com Neque porro quisquam est, 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay=".8s">
-                    <img class="img-responsive" src="images/app-screen.png" alt="">
-                </div>
-            </div>
+        <!-- Full Hardening -->
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 card-hover transition duration-300">
+          <div class="text-purple-400 text-sm font-semibold mb-2">PRODUCTION READY</div>
+          <h4 class="text-xl font-bold mb-2">Full Hardening</h4>
+          <div class="text-3xl font-extrabold mb-1">$2,500 – $6,000+</div>
+          <p class="text-slate-400 text-sm mb-5">1–3 weeks</p>
+          <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Complete architecture clean-up</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Proper error handling & logging</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Environment & deployment setup</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Documentation + Loom walkthrough</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> 30-day priority support</li>
+          </ul>
+          <a href="#book" class="block text-center bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-xl py-2.5 font-medium transition">Discuss Project</a>
         </div>
-    </section>
 
-
-    <section id="subscribe" >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow fadeInDown" data-wow-delay=".8s">
-                    <div class="block">
-                        <div class="title text-center">
-                            <h2>Stay Connected</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, non!</p>
-                        </div>
-                        
-                        
-
-                        <form class="form-inline text-center col-sm-12 col-xs-12" role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="signup-form" >
-                                
-                                
-                            </div>
-                            <a href="" type="submit" class="btn btn-default btn-signup">
-                                <i class="fa fa-paper-plane"></i>
-                            </a>
-                        </form>
-                    </div>
-                    
-
-                </div>
-            </div>
+        <!-- Retainer -->
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 card-hover transition duration-300">
+          <div class="text-green-400 text-sm font-semibold mb-2">ONGOING</div>
+          <h4 class="text-xl font-bold mb-2">Monthly Maintenance</h4>
+          <div class="text-3xl font-extrabold mb-1">$200 – $600<span class="text-lg font-medium text-slate-400">/mo</span></div>
+          <p class="text-slate-400 text-sm mb-5">Peace of mind</p>
+          <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Priority bug fixes & small changes</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Dependency & security updates</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Monitoring & uptime checks</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Monthly report</li>
+          </ul>
+          <a href="#book" class="block text-center bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-xl py-2.5 font-medium transition">Add Retainer</a>
         </div>
-    </section>
 
-    <footer class="wow fadeInUp" data-wow-delay=".8s">
-        <div class="container text-center">
-            <div class="row">
-                <div class="row-md-6">
-					<!-- <a class="footer-logo"href="#">
-						<img class="img-responsive" src="images/logo_java.png" alt="java">
-					</a> -->
-					<a class="footer-logo"href="https://spring.io">
-						<img class="img-responsive" src="images/logo_spring.png" width="252px" height="30px" alt="spring">
-					</a>
-					<a class="footer-logo"href="https://www.android.com">
-						<img class="img-responsive" src="images/logo_android.png" alt="android">
-					</a>
-					<a class="footer-logo"href="http://hibernate.org">
-						<img class="img-responsive" src="images/logo_hibernate.png" width="252px" height="30px" alt="hibernate">
-					</a>
-		        </div>
-		        <div class="row-md-6">
-					<a class="footer-logo"href="http://www.hl7.org">
-						<img class="img-responsive" src="images/logo_hl7.png" width="252px" height="120px" alt="hl7">
-					</a>&nbsp&nbsp&nbsp
-					<a class="footer-logo"href="http://www.ihe.net">
-						<img class="img-responsive" src="images/logo_ihe.png" width="252px" height="100px" alt="hl7">
-					</a>
-                </div>
-				<div class="row-md-6">
-					<p>Copyright © 2016 <a href="http://www.javabase.info">javabase</a>. developed by saurav</p>
-				</div>
-            </div>
+        <!-- Local Website -->
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 card-hover transition duration-300">
+          <div class="text-orange-400 text-sm font-semibold mb-2">FOR LOCAL BUSINESSES</div>
+          <h4 class="text-xl font-bold mb-2">Modern Website</h4>
+          <div class="text-3xl font-extrabold mb-1">$600 – $1,800</div>
+          <p class="text-slate-400 text-sm mb-5">+ $30–80/mo care</p>
+          <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> 5–8 page professional site</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Mobile-friendly + fast</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Contact / booking form</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Basic SEO setup</li>
+          </ul>
+          <a href="#book" class="block text-center bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-xl py-2.5 font-medium transition">Get Website Quote</a>
         </div>
-    </footer>
+
+        <!-- Business Tool -->
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 card-hover transition duration-300">
+          <div class="text-cyan-400 text-sm font-semibold mb-2">CUSTOM TOOL</div>
+          <h4 class="text-xl font-bold mb-2">Simple Business Tool</h4>
+          <div class="text-3xl font-extrabold mb-1">$1,000 – $3,500</div>
+          <p class="text-slate-400 text-sm mb-5">Booking, inventory, portal...</p>
+          <ul class="space-y-2.5 text-sm text-slate-300 mb-6">
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Booking + deposits</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Lead tracker / client portal</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Inventory or simple CRM</li>
+            <li class="flex gap-2"><i class="fas fa-check text-green-400 mt-0.5"></i> Delivered in days, not months</li>
+          </ul>
+          <a href="#book" class="block text-center bg-slate-800 hover:bg-slate-700 border border-slate-600 rounded-xl py-2.5 font-medium transition">Describe Your Tool</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Book / Contact -->
+  <section id="book" class="py-16 border-t border-slate-800">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h3 class="text-2xl sm:text-3xl font-bold mb-4">Let’s talk about your project</h3>
+      <p class="text-slate-400 mb-10 max-w-xl mx-auto">
+        Free 15-minute call. No pressure. Just tell me what’s broken or what you need built and I’ll tell you honestly if I can help and how much it will cost.
+      </p>
+
+      <div class="grid sm:grid-cols-3 gap-4 mb-10">
+        <!-- WhatsApp -->
+        <a href="https://wa.me/8801713792428?text=Hi%20Wahid%2C%20I%20saw%20your%20rescue%20page%20and%20want%20to%20discuss%20a%20project." 
+           target="_blank"
+           class="bg-green-600 hover:bg-green-500 text-white rounded-2xl p-6 transition flex flex-col items-center gap-3">
+          <i class="fab fa-whatsapp text-3xl"></i>
+          <span class="font-semibold">WhatsApp</span>
+          <span class="text-sm opacity-90">+880 1713-792428</span>
+          <span class="text-xs bg-green-700/50 px-3 py-1 rounded-full">Usually fastest reply</span>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:wahid.saurav@gmail.com?subject=Project%20Inquiry%20-%20Vibe%20App%20Rescue&body=Hi%20Wahid%2C%0A%0AI%20would%20like%20to%20discuss%3A%0A-%20Type%20of%20project%3A%20%0A-%20Current%20platform%20(Lovable%2FBolt%2FCursor%2Fetc)%3A%20%0A-%20Main%20problem%3A%20%0A%0AThanks"
+           class="bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white rounded-2xl p-6 transition flex flex-col items-center gap-3">
+          <i class="fas fa-envelope text-3xl text-blue-400"></i>
+          <span class="font-semibold">Email</span>
+          <span class="text-sm text-slate-300">wahid.saurav@gmail.com</span>
+          <span class="text-xs bg-slate-700 px-3 py-1 rounded-full">Detailed projects</span>
+        </a>
+
+        <!-- Calendar -->
+        <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Free+15-min+Call+with+Wahid+Saurav&details=Please+add+your+project+details+in+the+description.+I+will+confirm+the+time.&add=wahid.saurav@gmail.com"
+           target="_blank"
+           class="bg-blue-600 hover:bg-blue-500 text-white rounded-2xl p-6 transition flex flex-col items-center gap-3">
+          <i class="fas fa-calendar-check text-3xl"></i>
+          <span class="font-semibold">Book Meeting</span>
+          <span class="text-sm opacity-90">Google Calendar</span>
+          <span class="text-xs bg-blue-700/50 px-3 py-1 rounded-full">Pick a time</span>
+        </a>
+      </div>
+
+      <p class="text-slate-500 text-sm">
+        Prefer a structured booking link later? I can set up Calendly or Google Appointment slots — just ask.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-8">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+      <div>
+        © 2026 Wahid Saurav • Based in Bangladesh • Working with clients worldwide
+      </div>
+      <div class="flex gap-4">
+        <a href="https://wa.me/8801713792428" class="hover:text-green-400 transition"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:wahid.saurav@gmail.com" class="hover:text-blue-400 transition"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
